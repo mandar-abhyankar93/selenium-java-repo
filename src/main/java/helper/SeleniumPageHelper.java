@@ -2,6 +2,7 @@ package helper;
 
 import java.util.Random;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -51,6 +52,11 @@ public class SeleniumPageHelper {
 		Random random = new Random();
 		int temp = random.ints(min, (max + 1)).findFirst().getAsInt();
 		return ""+temp;
+	}
+	
+	public static void acceptAlert(WebDriver driver) {
+		Alert alert = driver.switchTo().alert();
+		alert.accept();
 	}
 
 }

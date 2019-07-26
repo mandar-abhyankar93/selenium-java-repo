@@ -1,30 +1,21 @@
 package samples;
 
+import java.util.Arrays;
+
 public class BubbleSort {
 
 	public static void main(String[] args) {
 
-		BubbleSort br1 = new BubbleSort();
-		br1.bsort(new int[] { 1, 4, 5, 2, 8, 9, 0 });
-
-	}
-
-	public void bsort(int[] ary) {
-
-		int length = ary.length;
-		System.out.println(length);
-		int temp;
-		for (int a = 0; a < length; a++) {
-			for(int b=a+1;b<length-1;b++)
-			if(ary[a]>ary[b]) {
-				temp = ary[b];
-				ary[b] = ary[a];
-				ary[a] = temp;
-			}
-		}
-		for (int x : ary) {
-			System.out.print(x + " ");
-		}
+		int[] arr = {1,2,0,5,7,99,0,1,56,12};
+		int n = arr.length; 
+        for (int i = 0; i < n-1; i++) 
+            for (int j = 0; j < n-i-1; j++) 
+                if (arr[j] > arr[j+1]) 
+                { 
+                    int temp = arr[j]; 
+                    arr[j] = arr[j+1]; 
+                    arr[j+1] = temp; 
+                } 
 
 	}
 

@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-05-02T11:06:16Z" name="Default suite" finished-at="2019-05-02T11:06:56Z" duration-ms="39459">
+  <suite started-at="2019-05-10T07:24:51Z" name="Default suite" finished-at="2019-05-10T07:25:58Z" duration-ms="67113">
     <groups>
     </groups>
-    <test started-at="2019-05-02T11:06:16Z" name="Default test" finished-at="2019-05-02T11:06:56Z" duration-ms="39459">
-      <class name="tests.ManageStandardBills">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ManageStandardBills@6ff29830]" started-at="2019-05-02T11:06:16Z" name="setUp" finished-at="2019-05-02T11:06:25Z" duration-ms="9042" status="PASS">
+    <test started-at="2019-05-10T07:24:51Z" name="Default test" finished-at="2019-05-10T07:25:58Z" duration-ms="67113">
+      <class name="tests.NewTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.NewTest@4c309d4d]" started-at="2019-05-10T07:24:51Z" name="setUp" finished-at="2019-05-10T07:25:32Z" duration-ms="41168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:tests.ManageStandardBills@6ff29830]" started-at="2019-05-02T11:06:25Z" name="test" finished-at="2019-05-02T11:06:56Z" duration-ms="30381" status="PASS">
+        <test-method signature="test()[pri:0, instance:tests.NewTest@4c309d4d]" started-at="2019-05-10T07:25:32Z" name="test" finished-at="2019-05-10T07:25:58Z" duration-ms="25866" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ManageStandardBills@6ff29830]" started-at="2019-05-02T11:06:56Z" name="tearDown" finished-at="2019-05-02T11:06:56Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.NewTest@4c309d4d]" started-at="2019-05-10T07:25:58Z" name="tearDown" finished-at="2019-05-10T07:25:58Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.ManageStandardBills -->
+      </class> <!-- tests.NewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
